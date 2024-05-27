@@ -1,3 +1,5 @@
+This is a fork from [alik0211/mtproto-core](https://github.com/alik0211/mtproto-core) created to try and update the schema API version for my work project. Use at your own risk `:)`.
+
 # @mtproto/core
 
 [![NPM](https://img.shields.io/npm/v/@mtproto/core.svg?style=flat-square)](https://www.npmjs.com/package/@mtproto/core)
