@@ -7,7 +7,7 @@
 
 Telegram API JS (MTProto) client library for Node.js and browser
 
-* **Actual.** 158 layer in the API scheme
+* **Actual.** 170 layer in the API scheme
 * **Fast.** For the Node.js, it uses the TCP and crypto module. For the browser, it uses WebSocket and window.crypto
 * **Easy.** Cryptography is hidden. Work with the API at a high level
 * **Smart.** Automatically sync authorization on all DCs
@@ -21,3 +21,18 @@ You can find the documentation on [mtproto-core.js.org/docs](https://mtproto-cor
 ## License
 
 GPLv3
+
+# examples
+
+Edit `.env`:
+
+```env
+TELEGRAM_API_ID=...
+TELEGRAM_API_HASH=...
+```
+
+## help-getNearestDc
+
+```bash
+node --env-file=.env ./examples/help-getNearestDc/index.js
+```

@@ -1,7 +1,9 @@
 const fs = require('fs');
 
-const apiSchema = require('../scheme/api.json');
-const mtprotoSchema = require('../scheme/mtproto.json');
+const scheme = require('./scheme.js');
+
+const apiSchema = scheme.apiSchema;
+const mtprotoSchema = scheme.mtprotoSchema;
 
 const lines = [];
 
